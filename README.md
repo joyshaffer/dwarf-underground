@@ -14,6 +14,7 @@ To practice making components, we've provided all the markup and styling for a s
 ### Basic Requirements
 
 * Split the page into at least 6 total components
+* javascript and css file
 
 ### Bonus Credit
 
@@ -22,11 +23,13 @@ To practice making components, we've provided all the markup and styling for a s
 ### Super Bonus Credit
 
 * Render the four article links at the bottom of the screen using `map` and passing in the props they need
+* make an array
 
 ### Super Mega Bonus Credit
 
 * Make a component that contains a text field for leaving a comment
 * Have the text field appear only when the 'comments' link at the bottom of the article is clicked
+* input area
 
 ### Super Mega Bonus Credit Hyper Fighting
 

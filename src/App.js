@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header'
+import Article from './Article'
+import Footer from './Footer'
+import Avatar from './Avatar'
+import Body from './Body'
+import Links from './Links'
+import Aside from './Aside'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <Header />
+
+    <main className="expanded row">
+      <div className="large-8 medium-12 columns article">
+        <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
+        <Avatar />
+        <Body />
+        <Links />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Aside />
+    <Article />
+    </main>
+    <Footer/>
       </div>
     );
   }
